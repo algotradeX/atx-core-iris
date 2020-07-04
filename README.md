@@ -45,7 +45,7 @@ $ docker run -p 8024:8024 -p 8124:8124 axoniq/axonserver:4.2.4-jdk11
 http://progressivecoder.com/building-microservices-with-axon-server-and-spring-boot/
 
 
-
+https://dzone.com/articles/running-axon-server-going-from-local-developer-ins
 
 
 
