@@ -3,7 +3,7 @@
 
 --------------------------------------------------------
 
-Pull Docker Image for AxonServer built with JDK11
+**Pull Docker Image for AxonServer built with JDK11**
 
 Source: https://hub.docker.com/r/axoniq/axonserver/tags
 
@@ -34,7 +34,9 @@ docker.io/axoniq/axonserver:4.2.4-jdk11
 ```
 ----------------------------------------------------------------
 
-Run Docker Image and expose 8024 for AxonDashboard and 8124 for GRPC
+**Run Docker Image and expose 8024 for AxonDashboard and 8124 for GRPC**
+
+Sample command: docker run -d --name <my-axon-server> -p 8024:8024 -p 8124:8124 axoniq/axonserver <some-container-id>
 
 ```
 $ docker run -p 8024:8024 -p 8124:8124 axoniq/axonserver:4.2.4-jdk11
