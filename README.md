@@ -180,6 +180,10 @@ Sample command: docker run -d --name <my-axon-server> -p 8024:8024 -p 8124:8124 
 ```
 $ docker run -p 8024:8024 -p 8124:8124 axoniq/axonserver:4.2.4-jdk11
 ```
+----------------------------------------------------------------
+**Axon Dashboard**
+----------------------------------------------------------------
+You can view axon server dashboard at http://localhost:8024/#overview
 
 ----------------------------------------------------------------
 Resources
